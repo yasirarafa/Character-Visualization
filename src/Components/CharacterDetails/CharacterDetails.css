@@ -1,0 +1,23 @@
+.character-details {
+  text-align: center; /* Center align all content */
+}
+
+.character-name {
+    margin: 0;
+    font-weight: bold;
+  }
+
+.character-image {
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Center the image horizontally */
+  margin: 0 auto 20px; /* Center the image vertically and add some space below */
+}
+
+.character-info {
+  margin: 0; /* Remove default margins for paragraphs */
+}
+
+.character-info span {
+  font-weight: bold; /* Make the label bold */
+  margin-right: 5px; /* Add some space between label and value */
+}
